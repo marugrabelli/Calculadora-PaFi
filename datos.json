@@ -1,0 +1,59 @@
+
+"pacientes":[
+      {
+         "nombre": "maria",
+         "apellido": "Julo",
+         "dni": "111111",
+         "po2": "90",
+         "fio2":"60",
+         "altura":"150",
+         "sexo":"f",
+	 "pesoIdeal":"148",
+         "paFi":"79",
+      },
+      {
+         "nombre": "matilda",
+         "apellido": "garcia",
+         "dni": "11456111",
+         "po2": "78",
+         "fio2":"30",
+         "altura":"170",
+         "sexo":"f",
+	 "pesoIdeal":"168",
+         "paFi":"152",
+      },
+{
+         "nombre": "julio",
+         "apellido": "gonzalez",
+         "dni": "117891",
+         "po2": "95",
+         "fio2":"40",
+         "altura":"160",
+         "sexo":"m",
+	 "pesoIdeal":"158",
+         "paFi":"192",
+      },{
+         "nombre": "jose",
+         "apellido": "alvarado",
+         "dni": "119998",
+         "po2": "95",
+         "fio2":"45",
+         "altura":"155",
+         "sexo":"m",
+	 "pesoIdeal":"168",
+         "paFi":"198",
+      },{
+         "nombre": "hugo",
+         "apellido": "Junipo",
+         "dni": "1167890",
+         "po2": "85",
+         "fio2":"30",
+         "altura":"170",
+         "sexo":"m",
+	 "pesoIdeal":"178",
+         "paFi":"226",
+      },
+   ]
+
+
+    

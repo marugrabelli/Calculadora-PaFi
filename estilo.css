@@ -20,10 +20,16 @@ h5{
     
 
 }
-button{
-    margin-bottom: 40px;
+.btn-success{
+    background-color:#0FB989 !important;
+    border-color: #42A5F5 !important;
+    background-image: none !important;
+    border: 0 !important;
 }
-button :hover{
-    color: brown;
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #fff !important;
+    background-color:#56E2A0  !important;
+    
+    border-top-style: solid !important;
+    border-color: black !important;
 }
-

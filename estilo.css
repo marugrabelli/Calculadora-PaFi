@@ -12,3 +12,18 @@
 h5{
     text-align: center;
 }
+#botones {
+     
+    
+    margin-left: 30%;
+    margin-right: 30%;
+    
+
+}
+button{
+    margin-bottom: 40px;
+}
+button :hover{
+    color: brown;
+}
+

@@ -1,0 +1,120 @@
+*{
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Quicksand', sans-serif;
+}
+
+
+
+.btn-success{
+    background-color:#0FB989 !important;
+    border-color: #42A5F5 !important;
+    background-image: none !important;
+    border: 0 !important;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #fff !important;
+    background-color:#56E2A0  !important;
+    
+    border-top-style: solid !important;
+    border-color: black !important;
+}
+.ppal{
+    background: rgb(240,201,225);
+    background: linear-gradient(90deg, rgba(240,201,225,1) 0%, rgba(29,253,129,1) 50%, rgba(242,227,206,1) 100%);
+}
+/*******************************************MENU**********************************************************/
+ span {  
+    color: #54d17a;
+
+}
+.navbar-toggler {
+    height: 2rem;
+}
+.navbar-nav a {
+    color: gray;
+}
+/************************************CALCULADORA******************************************************/
+*{
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    }
+    #calculadorapafi  { 
+        
+        margin-top: 8%;
+        margin-left: 25%;
+        
+    }
+    #tablaresultados{
+        background-color: white;
+        width: 450px;
+        margin-top: 5%;
+        margin-left: 30%;
+        margin-bottom: 5%;
+    }
+    
+    .row>.list_footer {
+       width: 25%;
+   }
+    #btncalcular{
+        margin-left: 15%;
+        margin-bottom: 10px;
+    }
+     .btn-success{
+        background-color:#0FB989 !important;
+        border-color: #42A5F5 !important;
+        background-image: none !important;
+        border: 0 !important;
+    }
+    .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+        color: #fff !important;
+        background-color:#56E2A0  !important;
+        
+        border-top-style: solid !important;
+        border-color: black !important;
+    }
+    .ppal{
+        background: rgb(240,201,225);
+        background: linear-gradient(90deg, rgba(240,201,225,1) 0%, rgba(29,253,129,1) 50%, rgba(242,227,206,1) 100%);
+    }
+  /*****************************************MEDIA QUERIES*****************************************************************/ 
+  @media only screen and (max-width:960px){
+      #btncalcular{
+          width: 25%;
+          margin-left: 12%;
+      }
+      #tablaresultados{
+        width: 450px;
+        
+        margin-left: 25%;
+    }
+  }
+@media only screen and (max-width:500px) {
+    
+    #tablaresultados{  
+        width: 380px;
+        margin-left: 12%;
+    }
+    .menu{  
+        width: 100%;
+        text-align: center;
+        display: none;
+    
+    }
+    .menu a {  
+        display: block;
+        border-bottom: 1px solid #EAEAEB;
+        margin: 0;
+        
+    }
+   #menutoggle:checked + .menu {  
+        display: block;
+      
+    
+    }
+    #calculadorapafi{
+        margin-left: 25%;
+    }
+  
+}
